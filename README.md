@@ -1,10 +1,12 @@
 # airflow-simulation-bird-wing
 
 ```bash
-python simulate.py \
+python main.py \
   --grid-size 128 128 \
-  --time-step 0.0005 \
-  --physical-parameters 1.0 0.01 \
-  --velocity-fields 1.0 0.0 \
-  --pressure 0.0
+  --number-time-steps 100 \
+  --time-step 0.001 \
+  --physical-parameters 1.0 0.1 \
+  --velocity-fields 0.0 0.0 \
+  --pressure 0.0 \
+  --pad 50.0
 ```

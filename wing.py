@@ -98,12 +98,3 @@ class Wing:
             plt.close()
         else:
             plt.show()
-
-
-if __name__ == "__main__":
-    NX = 128
-    NY = 64
-    PAD = 50.0  # adjust to control padding around the wing
-
-    wing = Wing("wing.stl", nx=NX, ny=NY, pad=PAD)
-    wing.visualise_mask("wing_mask.png")

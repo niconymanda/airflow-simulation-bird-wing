@@ -1,6 +1,5 @@
 import numpy as np
-from wing import create_mask
-from matplotlib import plt
+import matplotlib.pyplot as plt
 
 # The core loop repeats until the solution reaches a steady state. The steps are:
 #   1. Build the Source Term (b): Calculate the divergence of the velocity terms.
