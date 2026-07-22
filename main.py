@@ -16,6 +16,8 @@ def main():
     parser.add_argument("--pressure", type = float, default = 0.0, help = "Initial uniform pressure p0.")
     
     args = parser.parse_args()
+
+    
     
     run_simulation(
         grid_size = tuple(args.grid_size),
